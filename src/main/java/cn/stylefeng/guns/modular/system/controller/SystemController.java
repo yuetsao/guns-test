@@ -212,7 +212,7 @@ public class SystemController extends BaseController {
             byte[] decode = Base64.decode(avatar);
             response.getOutputStream().write(decode);
         } catch (IOException e) {
-            log.error("获取图片的流错误！", avatar);
+//            log.error("获取图片的流错误！", avatar);
             throw new ServiceException(CoreExceptionEnum.SERVICE_ERROR);
         }
 
