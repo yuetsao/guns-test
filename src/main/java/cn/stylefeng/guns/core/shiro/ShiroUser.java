@@ -76,4 +76,75 @@ public class ShiroUser implements Serializable {
      */
     private List<String> roleNames;
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getAccount() {
+        return account;
+    }
+
+    public void setAccount(String account) {
+        this.account = account;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getAvatar() {
+        return avatar;
+    }
+
+    public void setAvatar(String avatar) {
+        this.avatar = avatar;
+    }
+
+    public Long getDeptId() {
+        return deptId;
+    }
+
+    public void setDeptId(Long deptId) {
+        this.deptId = deptId;
+    }
+
+    public List<Long> getRoleList() {
+        return roleList;
+    }
+
+    public void setRoleList(List<Long> roleList) {
+        this.roleList = roleList;
+    }
+
+    public String getDeptName() {
+        return deptName;
+    }
+
+    public void setDeptName(String deptName) {
+        this.deptName = deptName;
+    }
+
+    public List<String> getRoleNames() {
+        return roleNames;
+    }
+
+    public void setRoleNames(List<String> roleNames) {
+        this.roleNames = roleNames;
+    }
 }
