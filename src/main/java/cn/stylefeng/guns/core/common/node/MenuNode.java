@@ -74,6 +74,86 @@ public class MenuNode implements Comparable, Serializable {
      */
     private List<MenuNode> children;
 
+    public Long getParentId() {
+        return parentId;
+    }
+
+    public void setParentId(Long parentId) {
+        this.parentId = parentId;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Integer getLevels() {
+        return levels;
+    }
+
+    public void setLevels(Integer levels) {
+        this.levels = levels;
+    }
+
+    public String getIsmenu() {
+        return ismenu;
+    }
+
+    public void setIsmenu(String ismenu) {
+        this.ismenu = ismenu;
+    }
+
+    public Integer getNum() {
+        return num;
+    }
+
+    public void setNum(Integer num) {
+        this.num = num;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public String getIcon() {
+        return icon;
+    }
+
+    public void setIcon(String icon) {
+        this.icon = icon;
+    }
+
+    public List<MenuNode> getChildren() {
+        return children;
+    }
+
+    public void setChildren(List<MenuNode> children) {
+        this.children = children;
+    }
+
+    public List<MenuNode> getLinkedList() {
+        return linkedList;
+    }
+
+    public void setLinkedList(List<MenuNode> linkedList) {
+        this.linkedList = linkedList;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     /**
      * 查询子节点时候的临时集合
      */
